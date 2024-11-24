@@ -1,10 +1,10 @@
 // TASK 1
 //Question 1
-// fetch("https://api.github.com/users/mulinater") 
-//   .then((response) => response.json()) 
-//   .then((json) => { 
-//     console.log(`Muli has ${json.public_repos} repos`); 
-//   }); 
+// fetch("https://api.github.com/users/mulinater")
+//   .then((response) => response.json())
+//   .then((json) => {
+//     console.log(`Muli has ${json.public_repos} repos`);
+//   });
 
 //Question 2
 // fetch("https://api.github.com/users/mulinater")
@@ -25,12 +25,12 @@
 //----------------------------------------------------------------------------------------
 // Beginning of Task 2
 // Question 1
-// fetch("https://jsonplaceholder.typicode.com/comments") 
-//   .then((response) => response.json()) 
-//   .then((json) => { 
-//     console.log(`There are ${json.length} comments.`); 
-//     // Logs the number of comments 
-//   }); 
+// fetch("https://jsonplaceholder.typicode.com/comments")
+//   .then((response) => response.json())
+//   .then((json) => {
+//     console.log(`There are ${json.length} comments.`);
+//     // Logs the number of comments
+//   });
 // // Question 2
 // fetch("https://jsonplaceholder.typicode.com/photos")
 //   .then((response) => response.json())
@@ -45,13 +45,13 @@
 //   });
 
 // Question 4
-fetch("https://jsonplaceholder.typicode.com/users")
-  .then((response) => response.json())
-  .then((json) => {
-    json.forEach((person) => {
-      console.log(`Name: ${person.name}, City: ${person.address.city}`);
-    });
-  });
+// fetch("https://jsonplaceholder.typicode.com/users")
+//   .then((response) => response.json())
+//   .then((json) => {
+//     json.forEach((person) => {
+//       console.log(`Name: ${person.name}, City: ${person.address.city}`);
+//     });
+//   });
 
 // Question 5
 // fetch("https://jsonplaceholder.typicode.com/todos")
